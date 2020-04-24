@@ -1,0 +1,4 @@
+(library 
+  (name myapp)
+  (libraries core_kernel incr_dom async_js)
+  (preprocess (pps ppx_jane)))

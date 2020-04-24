@@ -1,0 +1,59 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* prevent the text element to be selected inside draggables */
+    .selected {
+      background-color: green;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #333333;
+      color: white;
+      font-family: 'Courier New', Courier, monospace;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .display {
+      border-radius: 5px;
+      border: 1px solid white;
+      margin: 5px;
+      padding: 5px;
+      width: auto;
+    }
+
+    button:hover {
+      background-color: #555;
+    }
+
+    button:active {
+      background-color: #222;
+    }
+
+    button {
+      background-color: grey;
+      border-radius: 5px;
+      border: 1px solid white;
+      padding: 5px;
+      margin: 5px;
+      font-size: 15px;
+      color: white;
+      font-family: 'Courier New', Courier, monospace;
+    }
+  </style>
+  <script type='text/javascript' src='main.bc.js'></script>
+</head>
+
+<body>
+  <div id="app"></div>
+</body>
+
+</html>
